@@ -1,5 +1,5 @@
 # lung_tumor_yolo_detection
-English:
+*English:*
 Lung Tumor Detection YOLO Model
 
 This project encompasses a YOLO (You Only Look Once) model for detecting lung tumors, utilizing deep learning and object detection techniques. The YOLO model is a popular approach that simultaneously runs a single classifier and a bounding box regressor to efficiently detect objects in real time.
@@ -27,7 +27,7 @@ Important Contribution Notes:
 
 The purpose of the project is for educational and research purposes only. The results obtained do not substitute professional medical evaluation. For more information, please refer to the Usage and License sections.
 
-Türkçe:
+*Türkçe:*
 Akciğer Tümörü Tespiti YOLO Modeli
 
 Bu proje, derin öğrenme ve nesne tespiti yöntemlerini kullanarak akciğer tümörlerini tespit etmek için YOLO (You Only Look Once) modelini içerir. YOLO modeli, tek bir sınıflandırıcı ve yer belirleyici ağı aynı anda çalıştırarak nesneleri gerçek zamanlı olarak tespit etmek için popüler bir yöntemdir.
@@ -54,3 +54,22 @@ Lütfen Katkı Yaparken Dikkat Edilmesi Gerekenler:
 - Büyük değişiklikler yapmadan önce tartışma amaçlı bir "issue" açarak görüş alışverişinde bulunmanızı rica ederiz.
 
 Projenin Amacı sadece eğitim ve araştırma amaçlıdır. Elde edilen sonuçlar profesyonel tıbbi değerlendirmeyi asla yerine koymamaktadır. Daha fazla bilgi için lütfen Kullanım Şartları ve Lisans bölümlerini inceleyiniz.
+
+**English:**
+**Creation of Custom Dataset for Lung Tumor Detection**
+
+In this project, a custom dataset for lung tumor detection was curated using data obtained from the medicaldecathlon website. Out of a total of 96 patient data samples, 64 contained annotated regions representing tumor areas. Using the MRIcro application, these annotated regions were extracted, resulting in a total of 1420 tumor images.
+
+The dataset creation process was facilitated through the makesense.ai platform. This platform enabled the annotation and labeling of tumor regions within the images. This approach aims to enhance the deep learning model's comprehension of the data, ensuring accurate detection of tumors.
+
+This specialized dataset was created to improve project performance and provide results closer to real-world data. The generated dataset will be made accessible to the open-source community.
+
+**Türkçe:**
+**Akciğer Tümörü Tespiti İçin Özel Veri Seti Oluşturulması**
+
+Bu proje kapsamında, medicaldecathlon.com sitesinden elde edilen veri setini kullanarak akciğer tümörü tespiti için özel bir veri seti oluşturulmuştur. Toplamda 96 hasta verisini içeren bu setten, 64 tanesi işaretli ve tümörlü bölgeleri içermekteydi. MRIcro uygulaması aracılığıyla bu işaretli bölgeler ayrıştırılarak toplamda 1420 tümörlü görüntü elde edilmiştir.
+
+Veri seti oluşturma süreci makesense.ai platformu kullanılarak gerçekleştirilmiştir. Bu platform sayesinde görüntülerdeki tümörlü bölgeler işaretlenmiş ve etiketlenmiştir. Bu sayede derin öğrenme modelinin veriyi anlaması ve tümörleri doğru bir şekilde tespit etmesi amaçlanmıştır.
+
+Bu özel veri seti, projenin daha iyi performans elde etmesi ve gerçek dünya verilerine daha yakın sonuçlar sunması amacıyla oluşturulmuştur. Oluşturulan veri seti, açık kaynak topluluğu tarafından erişilebilir hale getirilecektir.
+
