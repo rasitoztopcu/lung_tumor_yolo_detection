@@ -73,3 +73,21 @@ Veri seti oluşturma süreci makesense.ai platformu kullanılarak gerçekleştir
 
 Bu özel veri seti, projenin daha iyi performans elde etmesi ve gerçek dünya verilerine daha yakın sonuçlar sunması amacıyla oluşturulmuştur. Oluşturulan veri seti, açık kaynak topluluğu tarafından erişilebilir hale getirilecektir.
 
+***English:***
+***Data Annotation and Training Preparations for Lung Tumor Detection***
+
+As part of this project, the annotation process for the dataset obtained from the medicaldecathlon website has been completed using the makesense.ai platform. Out of a total of 96 patient data samples, 64 contained regions corresponding to lung tumor areas. Utilizing the MRIcro application, these tumor regions were delineated, resulting in a total of 1420 tumor images.
+
+Following the annotation of the dataset, the decision was made to employ the Google Colab platform for training purposes. Colab notebooks have been created for both YOLOv5x and YOLOv8x model versions, and these notebooks will be shared in the near future.
+
+These preparation steps lay the groundwork for training the deep learning models that will be utilized in the later stages of the project.
+
+***Türkçe:***
+***Akciğer Tümörü Tespiti İçin Veri Seti İşaretleme ve Eğitim Hazırlıkları***
+
+Bu projenin bir parçası olarak, medicaldecathlon sitesinden temin edilen veri setinin işaretlenmesi işlemi makesense.ai platformu kullanılarak tamamlanmıştır. Toplamda 96 hasta verisi içeren bu set, içlerinden 64'ü akciğer tümörü bölgelerini içermekteydi. MRIcro uygulaması kullanılarak bu tümörlü bölgeler ayrıştırılmış ve 1420 adet tümörlü görüntü elde edilmiştir.
+
+Veri setinin işaretlenmesinin ardından, eğitim işlemleri için Google Colab platformunu kullanma kararı alınmıştır. YOLOv5x ve YOLOv8x model versiyonları için uygun Colab notebook'ları oluşturulmuş ve yakın gelecekte bu not defterleri paylaşılacaktır.
+
+Bu hazırlık aşamaları, projenin ileri aşamalarında kullanılacak derin öğrenme modellerinin eğitimi için temel oluşturmayı amaçlamaktadır.
+
